@@ -1,0 +1,1 @@
+﻿global using static Inline_Console_net6.Namespace1.StaticExtensionMethodDeclaration;

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.1.32120.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extract_Console_net6", "Extract_Console_net6\Extract_Console_net6.csproj", "{317B5A25-5EFF-4398-9740-673C36BB30AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inline_Console_net6", "Inline_Console_net6\Inline_Console_net6.csproj", "{4D7DEF46-CD1D-420B-A68D-2852DA3375B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{317B5A25-5EFF-4398-9740-673C36BB30AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{317B5A25-5EFF-4398-9740-673C36BB30AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{317B5A25-5EFF-4398-9740-673C36BB30AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7DEF46-CD1D-420B-A68D-2852DA3375B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7DEF46-CD1D-420B-A68D-2852DA3375B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7DEF46-CD1D-420B-A68D-2852DA3375B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7DEF46-CD1D-420B-A68D-2852DA3375B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
