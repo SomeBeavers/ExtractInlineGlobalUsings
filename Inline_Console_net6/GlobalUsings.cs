@@ -7,3 +7,5 @@ global using Inline_Shared;
 //global using NotExisting;
 
 // TODO: type global using Alias =
+
+global using Inline_Core_Console_net6.Use;
