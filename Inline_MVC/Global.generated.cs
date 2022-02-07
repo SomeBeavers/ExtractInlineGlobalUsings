@@ -1,0 +1,1 @@
+﻿global using Inline_MVC.Models1;
