@@ -1,4 +1,4 @@
-namespace Inline_MVC.Models
+namespace Inline_MVC.Models1
 {
     public class ErrorViewModel
     {
