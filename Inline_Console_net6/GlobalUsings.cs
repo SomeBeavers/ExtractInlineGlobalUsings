@@ -3,7 +3,7 @@
 
 global using Inline_Referenced_Lib;
 global using static Inline_Console_net6.Namespace1.StaticExtensionMethodDeclaration;
-
+global using Inline_Shared;
 //global using NotExisting;
 
 // TODO: type global using Alias =
