@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Usages\" />
     <Folder Include="UseReferencedLibs\" />
     <Folder Include="UseShared\" />
   </ItemGroup>
