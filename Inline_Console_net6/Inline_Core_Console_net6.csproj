@@ -19,6 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="Dll">
       <HintPath>..\Dll\bin\Debug\net6.0\Dll.dll</HintPath>
       <Aliases>Dll1</Aliases>
