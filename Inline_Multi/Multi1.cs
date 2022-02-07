@@ -1,9 +1,6 @@
 ﻿// Multi1.cs
 // 2022 02 07 12:12 PM
 
-#if NET6_0
-using System.Collections.Generic;
-#endif
 
 namespace Inline_Multi
 {
