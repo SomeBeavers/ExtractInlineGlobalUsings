@@ -8,5 +8,6 @@ public class UseExtern
     private void Test()
     {
         new Class1().Test1();
+        new A().Test1();
     }
 }

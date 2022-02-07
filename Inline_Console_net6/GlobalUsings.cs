@@ -16,5 +16,6 @@ global using Alias = Inline_Core_Console_net6.Use;
 
 
 global using Dll1::Dll;
+global using A=Dll1::Dll.Class1;
 //global using Dll2::Dll;
 
