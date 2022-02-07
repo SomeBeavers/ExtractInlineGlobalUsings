@@ -8,4 +8,7 @@ global using Inline_Shared;
 
 // TODO: type global using Alias =
 
+// simple global
 global using Inline_Core_Console_net6.Use;
+global using static System.Numerics.Vector2; 
+
