@@ -6,10 +6,13 @@ using Inline_Core_Console_net6.Use2;
 
 namespace Inline_Core_Console_net6;
 
+// ReSharper disable once UnusedType.Global
 public class WithUnusedUsing
 {
+    // ReSharper disable once UnusedMember.Local
     private void Test()
     {
-        new UseMe();
+        // ReSharper disable once UnusedVariable
+        var useMe = new UseMe();
     }
 }
