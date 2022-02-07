@@ -18,4 +18,15 @@
     <Folder Include="UseShared\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Dll">
+      <HintPath>..\Dll\bin\Debug\net6.0\Dll.dll</HintPath>
+      <Aliases>Dll1</Aliases>
+    </Reference>
+    <Reference Include="Dll2">
+      <HintPath>..\Dll2\bin\Debug\net6.0\Dll2.dll</HintPath>
+      <Aliases>Dll2</Aliases>
+    </Reference>
+  </ItemGroup>
+
 </Project>

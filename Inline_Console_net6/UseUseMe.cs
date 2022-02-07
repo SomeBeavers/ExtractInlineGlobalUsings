@@ -9,7 +9,7 @@ public class UseUseMe
     private void Test()
     {
         // ReSharper disable once UnusedVariable
-        var useMe = new UseMe();
+        var useMe = new Alias.UseMe();
         var vector2 = One;
     }
 }

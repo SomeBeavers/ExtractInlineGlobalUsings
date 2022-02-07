@@ -35,17 +35,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extract_Multi", "Extract_Mu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inline_Multi", "Inline_Multi\Inline_Multi.csproj", "{2D2A3BC9-3B3E-4A33-A6D2-05F00E6D6656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extract_Xaml", "Extract_Xaml\Extract_Xaml.csproj", "{F08B275D-4A69-4665-AE17-A9A45930FDC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extract_Xaml", "Extract_Xaml\Extract_Xaml.csproj", "{F08B275D-4A69-4665-AE17-A9A45930FDC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inline_Xaml", "Inline_Xaml\Inline_Xaml.csproj", "{43F1E302-5DC0-4EC2-90E5-1409C6C27765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inline_Xaml", "Inline_Xaml\Inline_Xaml.csproj", "{43F1E302-5DC0-4EC2-90E5-1409C6C27765}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extract_WinForms", "Extract_WinForms\Extract_WinForms.csproj", "{06DAFEA1-0072-4D6C-BA8B-F32554EC4EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extract_WinForms", "Extract_WinForms\Extract_WinForms.csproj", "{06DAFEA1-0072-4D6C-BA8B-F32554EC4EEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inline_WinForms", "Inline_WinForms\Inline_WinForms.csproj", "{9BB630F8-C571-44EC-B72F-F50631DC2EFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inline_WinForms", "Inline_WinForms\Inline_WinForms.csproj", "{9BB630F8-C571-44EC-B72F-F50631DC2EFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extract_Referenced_Lib", "Extract_Referenced_Lib\Extract_Referenced_Lib.csproj", "{453E2E44-3E69-4459-8E8D-E4772911B0D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extract_Referenced_Lib", "Extract_Referenced_Lib\Extract_Referenced_Lib.csproj", "{453E2E44-3E69-4459-8E8D-E4772911B0D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inline_Referenced_Lib", "Inline_Referenced_Lib\Inline_Referenced_Lib.csproj", "{4C81B715-9A81-4A1F-A1C8-6BF6486B22BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inline_Referenced_Lib", "Inline_Referenced_Lib\Inline_Referenced_Lib.csproj", "{4C81B715-9A81-4A1F-A1C8-6BF6486B22BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dll", "Dll\Dll.csproj", "{AF15566C-0736-4CAD-8D7C-8205791F1C9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dll2", "Dll2\Dll2.csproj", "{75C58427-7334-4339-BF22-CA4C505FB885}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -133,6 +137,14 @@ Global
 		{4C81B715-9A81-4A1F-A1C8-6BF6486B22BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C81B715-9A81-4A1F-A1C8-6BF6486B22BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C81B715-9A81-4A1F-A1C8-6BF6486B22BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF15566C-0736-4CAD-8D7C-8205791F1C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF15566C-0736-4CAD-8D7C-8205791F1C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF15566C-0736-4CAD-8D7C-8205791F1C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF15566C-0736-4CAD-8D7C-8205791F1C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C58427-7334-4339-BF22-CA4C505FB885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C58427-7334-4339-BF22-CA4C505FB885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C58427-7334-4339-BF22-CA4C505FB885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C58427-7334-4339-BF22-CA4C505FB885}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
