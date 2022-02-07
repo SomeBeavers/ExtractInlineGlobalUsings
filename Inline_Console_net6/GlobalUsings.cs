@@ -1,8 +1,15 @@
 ﻿// GlobalUsings.cs
 // 2022 02 07 4:32 PM
-
+#nullable enable
 extern alias Dll1;
 extern alias Dll2;
+global using YUseInTopLevelNamespace2;
+global using Use4Namespace;
+global using Inline_Core_Console_net6.Usages;
+global using Attributes;
+global using Use3Namespace;
+global using UseInTopLevelNamespace;
+global using Alias2 = Inline_Core_Console_net6.Use;
 global using StaticMethodsNamespace1;
 global using CustomNamespace;
 global using a = System.Collections.Generic.List<string?>;
