@@ -3,6 +3,8 @@
 extern alias Dll1;
 extern alias Dll2;
 
+global using System.Text.Json.Nodes;
+
 global using Inline_Referenced_Lib;
 global using static Inline_Console_net6.Namespace1.StaticExtensionMethodDeclaration;
 global using Inline_Shared;
