@@ -3,11 +3,12 @@
 
 
 namespace Inline_Core_Console_net6;
-using OverwriteNuget1;
+using NugetAlias = OverwriteNuget1;
 public class UseNuget
 {
     private void Test()
     {
-        new JsonArray();
+        new NugetAlias.JsonArray();
+        new System.Text.Json.Nodes.JsonArray();
     }
 }

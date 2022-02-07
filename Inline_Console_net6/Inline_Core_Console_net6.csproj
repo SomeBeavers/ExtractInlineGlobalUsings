@@ -11,10 +11,12 @@
   <Import Project="..\Inline_Shared\Inline_Shared.projitems" Label="Shared" />
 
   <ItemGroup>
+    <ProjectReference Include="..\Inline_Referenced_Lib2\Inline_Referenced_Lib2.csproj" />
     <ProjectReference Include="..\Inline_Referenced_Lib\Inline_Referenced_Lib.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="UseReferencedLibs\" />
     <Folder Include="UseShared\" />
   </ItemGroup>
 
