@@ -47,11 +47,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Extract_Referenced_Lib", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inline_Referenced_Lib", "Inline_Referenced_Lib\Inline_Referenced_Lib.csproj", "{4C81B715-9A81-4A1F-A1C8-6BF6486B22BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dll", "Dll\Dll.csproj", "{AF15566C-0736-4CAD-8D7C-8205791F1C9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dll", "Dll\Dll.csproj", "{AF15566C-0736-4CAD-8D7C-8205791F1C9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dll2", "Dll2\Dll2.csproj", "{75C58427-7334-4339-BF22-CA4C505FB885}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dll2", "Dll2\Dll2.csproj", "{75C58427-7334-4339-BF22-CA4C505FB885}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inline_Referenced_Lib2", "Inline_Referenced_Lib2\Inline_Referenced_Lib2.csproj", "{7EBBFE40-AF54-438C-B53B-497645DE2D30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inline_Referenced_Lib2", "Inline_Referenced_Lib2\Inline_Referenced_Lib2.csproj", "{7EBBFE40-AF54-438C-B53B-497645DE2D30}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
