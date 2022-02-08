@@ -1,10 +1,6 @@
 ﻿// SimpleUsing5.cs
 // 2022 02 08 12:31 PM
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
 using AnotherNamespace;
 
 using Extract_Referenced_Lib;
