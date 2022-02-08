@@ -3,6 +3,9 @@
 
 using AnotherNamespace;
 
+using Extract_Core_Console_net6.GlobalUsingsAreHere;
+
+
 using Extract_Referenced_Lib;
 
 using Serilog;
@@ -10,7 +13,7 @@ using Serilog;
 using static System.Math;
 
 namespace Extract_Core_Console_net6.Copied_Class;
-
+using GlobalUsingsAreHere2;
 public class SimpleUsing5
 {
     private ILogger logger;
@@ -21,5 +24,6 @@ public class SimpleUsing5
         var fromLib1 = new FromLib1();
         var pi = PI;
         logger.Error("{testMessage}", parameter);
+        new ClassInFolder();
     }
 }
