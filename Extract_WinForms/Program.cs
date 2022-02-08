@@ -1,3 +1,6 @@
+using System;
+using System.Windows.Forms;
+
 namespace Extract_WinForms
 {
     internal static class Program
