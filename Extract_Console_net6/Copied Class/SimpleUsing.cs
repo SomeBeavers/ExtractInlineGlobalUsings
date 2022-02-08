@@ -1,7 +1,7 @@
 ﻿// SimpleUsing.cs
 // 2022 02 08 12:26 PM
 
-using S = :System;
+using S = global::System;
 
 using System.Collections.Generic;
 using System.Linq;
