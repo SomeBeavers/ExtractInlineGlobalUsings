@@ -7,6 +7,8 @@ using System.Linq;
 
 using AnotherNamespace;
 
+using Extract_Referenced_Lib;
+
 using Serilog;
 
 using static System.Math;
@@ -20,6 +22,7 @@ public class SimpleUsing4
     private void Test(UseMe parameter, List<UseMe> list)
     {
         Console.WriteLine(list.Any());
+        var fromLib1 = new FromLib1();
         var pi = PI;
         logger.Error("{testMessage}", parameter);
     }
