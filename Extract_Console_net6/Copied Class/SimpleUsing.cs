@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using AnotherNamespace;
+using Alias = AnotherNamespace;
 
 using Extract_Referenced_Lib;
 
@@ -19,7 +19,7 @@ public class SimpleUsing
 {
     private ILogger logger;
 
-    private void Test(UseMe parameter, List<UseMe> list)
+    private void Test(Alias.UseMe parameter, List<Alias.UseMe> list)
     {
         Console.WriteLine(list.Any());
         var fromLib1 = new FromLib1();
