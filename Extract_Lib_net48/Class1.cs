@@ -1,12 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Class1.cs
+// 2022 02 08 11:04 AM
 
-namespace Extract_Lib_net48
+using System;
+using System.Collections.Generic;
+
+using UseClassFromFramework_Namespace;
+
+namespace Extract_Lib_net48;
+
+public class Class1
 {
-    public class Class1
+    private void Test()
     {
+        new List<string>();
+        Console.WriteLine();
+        new UseClassFromFramework();
     }
 }
