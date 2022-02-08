@@ -53,7 +53,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dll2", "Dll2\Dll2.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inline_Referenced_Lib2", "Inline_Referenced_Lib2\Inline_Referenced_Lib2.csproj", "{7EBBFE40-AF54-438C-B53B-497645DE2D30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inline_Playground", "Inline_Playground\Inline_Playground.csproj", "{3C0776D5-E1C3-47F3-812F-C8C9517C518F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inline_Playground", "Inline_Playground\Inline_Playground.csproj", "{3C0776D5-E1C3-47F3-812F-C8C9517C518F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{613A667C-6BE1-4AD6-98B7-E473CE0CE506}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
