@@ -53,6 +53,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dll2", "Dll2\Dll2.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inline_Referenced_Lib2", "Inline_Referenced_Lib2\Inline_Referenced_Lib2.csproj", "{7EBBFE40-AF54-438C-B53B-497645DE2D30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inline_Playground", "Inline_Playground\Inline_Playground.csproj", "{3C0776D5-E1C3-47F3-812F-C8C9517C518F}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Inline_Shared\Inline_Shared.projitems*{02222eb5-b5ed-449f-b623-c6019f08b713}*SharedItemsImports = 4
@@ -151,6 +153,10 @@ Global
 		{7EBBFE40-AF54-438C-B53B-497645DE2D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EBBFE40-AF54-438C-B53B-497645DE2D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EBBFE40-AF54-438C-B53B-497645DE2D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C0776D5-E1C3-47F3-812F-C8C9517C518F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C0776D5-E1C3-47F3-812F-C8C9517C518F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C0776D5-E1C3-47F3-812F-C8C9517C518F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C0776D5-E1C3-47F3-812F-C8C9517C518F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -177,6 +183,7 @@ Global
 		{453E2E44-3E69-4459-8E8D-E4772911B0D6} = {32A76A65-A60B-423D-A4AC-FCA3BE0C4DEE}
 		{4C81B715-9A81-4A1F-A1C8-6BF6486B22BC} = {5D705D23-FF34-43DE-808B-8EFC007182C9}
 		{7EBBFE40-AF54-438C-B53B-497645DE2D30} = {5D705D23-FF34-43DE-808B-8EFC007182C9}
+		{3C0776D5-E1C3-47F3-812F-C8C9517C518F} = {5D705D23-FF34-43DE-808B-8EFC007182C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BBB912BD-CA86-4AEA-B3C0-7B9437C2577B}
