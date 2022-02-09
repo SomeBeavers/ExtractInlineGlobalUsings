@@ -8,6 +8,7 @@ using A = Extract_Core_Console_net6.GlobalUsingsAreHere;
 using Extract_Referenced_Lib;
 
 using Serilog;
+using Serilog;
 
 using static System.Math;
 
