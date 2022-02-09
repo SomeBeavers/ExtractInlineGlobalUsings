@@ -5,7 +5,7 @@ using Extract_Referenced_Lib;
 
 using Serilog;
 
-using Alias = AnotherNamespace;
+using Alias = AnotherNamespace; 
 
 using static System.Math;
 
