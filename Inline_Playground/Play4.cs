@@ -1,16 +1,28 @@
 ﻿// Play4.cs
 // 2022 02 10 11:32 AM
+using System;
 
-using A1 = Inline_Playground.Test;
+using Inline_Playground.Test;
+using Play5;
 
-namespace Inline_Playground;
-
-public class Play4
+namespace Inline_Playground
 {
-    public string Name { get; set; }
-
-    private void Test()
+    public class Play4
     {
-        var name = A1.Play5.Name;
+        public string Name1 { get; set; }
+
+        private void Test()
+        {
+            new List<string>();
+            new NotPlayClass();
+        }
+    }
+}
+
+namespace Play5
+{
+    class NotPlayClass
+    {
+        
     }
 }
