@@ -1,6 +1,8 @@
 ﻿// Play4.cs
 // 2022 02 10 11:32 AM
 
+using A1 = Inline_Playground.Test;
+
 namespace Inline_Playground;
 
 public class Play4
@@ -9,6 +11,6 @@ public class Play4
 
     private void Test()
     {
-        var name = new Play5().Name;
+        var name = A1.Play5.Name;
     }
 }

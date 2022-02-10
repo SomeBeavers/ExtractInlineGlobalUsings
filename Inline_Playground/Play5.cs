@@ -1,9 +1,9 @@
 ﻿// Play5.cs
 // 2022 02 10 11:34 AM
 
-namespace Inline_Playground;
+namespace Inline_Playground.Test;
 
-public class Play5
+public static class Play5
 {
-    public string Name { get; set; }
+    public static string Name { get; set; }
 }
