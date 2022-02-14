@@ -3,8 +3,6 @@
 
 using AnotherNamespace;
 
-using Extract_Referenced_Lib;
-
 using Serilog;
 
 using static System.Math;

@@ -3,14 +3,12 @@
 
 using Alias2 = AnotherNamespace;
 
-using Extract_Referenced_Lib;
-
 using Serilog;
 
 using static System.Math;
 
 namespace Extract_Core_Console_net6.Copied_Class;
-
+using Extract_Referenced_Lib;
 public class SimpleUsing2
 {
     private ILogger logger;
