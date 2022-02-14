@@ -11,6 +11,8 @@ using C = System.Collections.Generic.List<string?>;
 using B = System.Collections.Generic.List<int?>;
 using System.Security.Authentication;
 
+using Extract_Referenced_Lib;
+
 namespace Extract_Core_Console_net6.Copied_Class;
 
 public class SimpleUsing3

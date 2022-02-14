@@ -1,6 +1,8 @@
 ﻿// SimpleUsing.cs
 // 2022 02 08 12:26 PM
 
+using Extract_Referenced_Lib;
+
 using Serilog;
 
 using Alias = AnotherNamespace; 

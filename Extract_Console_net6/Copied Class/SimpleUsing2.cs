@@ -1,6 +1,8 @@
 ﻿// SimpleUsing2.cs
 // 2022 02 08 12:31 PM
 
+using Extract_Referenced_Lib;
+
 using Alias2 = AnotherNamespace;
 
 using Serilog;
@@ -8,7 +10,7 @@ using Serilog;
 using static System.Math;
 
 namespace Extract_Core_Console_net6.Copied_Class;
-using Extract_Referenced_Lib;
+
 public class SimpleUsing2
 {
     private ILogger logger;

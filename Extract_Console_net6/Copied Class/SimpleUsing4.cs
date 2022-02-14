@@ -3,6 +3,8 @@
 
 using AnotherNamespace;
 
+using Extract_Referenced_Lib;
+
 using A = Extract_Core_Console_net6.GlobalUsingsAreHere;
 
 using Serilog;
